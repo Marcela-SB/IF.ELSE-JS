@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IF/ELSE no JavaScript - Questão 3</title>
+    <style type="text/css">
+      p{
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 300px;
+        font-family: arial;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var passagem= prompt("Insira o valor da passagem...");
+      
+      if (passagem<200) {
+        document.write("<p>VIAJOU</p>");
+      }
+      else if (passagem>=200 && passagem<=299) {
+        document.write("<p>VAI VIAJAR</p>");
+      }
+      else if (passagem>=300 && passagem<=349) {
+        document.write("<p>TALVEZ VIAJE</p>");
+      }
+      else {
+        document.write("<p>NÃO VIAJOU</p>");
+      }
+    </script>
+  </body>
+</html>
