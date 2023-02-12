@@ -1,6 +1,6 @@
-var peso, altura;
+function Q1() {
+  var peso, altura;
 
-function Questao1() {
   peso= prompt("Qual o seu peso?");
   altura= prompt("Qual a sua altura?");
 
