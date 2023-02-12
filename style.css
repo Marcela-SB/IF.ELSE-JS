@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+
+button{
+  display: block;
+  margin: auto;
+}
+
+hr{
+  background-color: blueviolet;
+  height: 1px;
+  margin-top: 20px;
+}
